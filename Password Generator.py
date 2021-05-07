@@ -37,8 +37,8 @@ generator()
 
 ''''
 
-How many passwords would you like to get?4
-How long would you like your password to be?13
+How many passwords would you like to get?  4
+How long would you like your password to be? 13
 Your passwords are ready:
 1:  u4(4`Hif;(w>z
 2:  U}f!]<<]W)]if
@@ -46,7 +46,8 @@ Your passwords are ready:
 4:  XY*{~q7zHYy=l
 
 
-'''''
+''''
+
 
 ''''
 
