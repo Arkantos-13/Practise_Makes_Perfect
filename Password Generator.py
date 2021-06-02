@@ -58,27 +58,25 @@ passwords in combination with a secret word you type so you can really remember 
 
 
 password_user = input('Would you like your final password to have a special word inside? \n'
-                      'If yes then you can type it here:')
+                      'If yes, then you can type it here: \n')
 
-k = int(input('How many passwords would you like to get?'))
+k = int(input('How many passwords would you like to get? \n'))
 
-length = int(input('How long would you like your password to be?'))
-
-
-print('Your passwords are ready:')
+length = int(input('How long would you like your password to be? \n'))
 
 
 def password_generator():
+    print('Your passwords are ready: \n')
     for num in range(k):
         for _ in password_user:
             words = []
             words = [secrets.choice(letters) for i in range(length)]
             words[random.randint(1, length-1)] = password_user
             passwords = ''.join(words)
+
         print(f'{num+1}: {passwords}')
 
 password_generator()
-
 
 # The output for the last password generator looks like this:
 
