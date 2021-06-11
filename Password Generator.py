@@ -4,7 +4,7 @@ import random
 import string
 import secrets
 
-letters = (string.ascii_letters + string.digits + string.punctuation)
+letters = string.ascii_letters + string.digits + string.punctuation
 
 ''''
 
