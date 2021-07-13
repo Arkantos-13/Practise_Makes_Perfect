@@ -8,7 +8,6 @@ import random
 import inflect
 
 
-
 num = input('Please type an integer number as an upper bound: ')
 
 def User_Guess(num):
@@ -23,6 +22,7 @@ def User_Guess(num):
     else:
         print('You have to type a valid number! Try Again!')
 
+        
     limits = random.randint(1, num)
     guess = None
     count = 1
