@@ -12,6 +12,7 @@ import inflect
 num = input('Please type an integer number as an upper bound: ')
 
 def User_Guess(num):
+    
     """
     We check if the upper bound is valid or not
     We just want an integer number
@@ -26,9 +27,11 @@ def User_Guess(num):
     guess = None
     count = 1
 
+    
     """
     Here we make and count the guesses each time
     """
+    
     while guess != limits:
         guess = int(input(f'Please type the number of your choice, between 1 and {str(num)}: \n'))
 
