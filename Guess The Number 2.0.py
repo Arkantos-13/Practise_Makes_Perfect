@@ -1,3 +1,8 @@
+"""
+In this version of the game, the computer tries to find out secret number
+"""
+
+
 import random
 
 #I used the module below, in order to convert 1 to 1st, 2 to 2st etc
