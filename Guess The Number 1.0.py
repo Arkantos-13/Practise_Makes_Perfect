@@ -1,13 +1,13 @@
+"""
+In this version of the game, the user guesses a random number
+"""
+
 import random
-"""
-I used the module below, in order to convert 1 to 1st, 2 to 2st etc
-"""
+
+# I used the module below, in order to convert 1 to 1st, 2 to 2st etc
 import inflect
 
-"""
-1.0 Version of this Game
-The user guesses a random number
-"""
+
 
 num = input('Please type an integer number as an upper bound: ')
 
