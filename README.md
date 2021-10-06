@@ -1,6 +1,4 @@
-# Practise_Makes_Perfect
+<h1 align="center">Lust for life</h1>
 
 
-Hi all,
-I am learning python by making different projects that I like.
-Hope you like them too 
+Here I upload different projects - games, mostly in python.
